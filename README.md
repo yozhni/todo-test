@@ -3,7 +3,7 @@
 Hi! this is simple test project Cucumber+Java
 
 ## prepare
-### [^1]: If you happily use IntelliJ IDEA: 
+### If you happily use IntelliJ IDEA: 
 - just choose in menu File - > New -> Open a new project from version control 
 - sync all of dependencies
 - choose  in menu File -> Project structure
@@ -14,7 +14,7 @@ Hi! this is simple test project Cucumber+Java
 
 ### If you don't have IntelliJ IDEA, 
 - don't worry it's easy to install.
-- open project as described above [^1]
+- open project as described above 
 
 ### If it's not your option - there is the way:
 - install maven and don’t forget about java jdk 18
