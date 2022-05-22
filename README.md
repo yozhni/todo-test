@@ -3,7 +3,7 @@
 Hi! this is simple test project Cucumber+Java
 
 ## prepare
-### If you happily use IntelliJ IDEA:
+### [^1]: If you happily use IntelliJ IDEA: 
 - just choose in menu File - > New -> Open a new project from version control 
 - sync all of dependencies
 - choose  in menu File -> Project structure
@@ -14,7 +14,7 @@ Hi! this is simple test project Cucumber+Java
 
 ### If you don't have IntelliJ IDEA, 
 - don't worry it's easy to install.
-- open project as described above
+- open project as described above [^1]
 
 ### If it's not your option - there is the way:
 - install maven and don’t forget about java jdk 18
@@ -30,7 +30,7 @@ But in Command Prompt you first need to change dirrectory  to the project folder
 
 ``` cd <path to the project folder>```
 
-First time it can take a quite a long time as it'll take time to download all dependencies
+First time compile can take quite a long time as it wil be downloading all of dependencies
 
 
 ## view report
