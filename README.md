@@ -47,7 +47,7 @@ Report looks like this
 ![cucumberReportView](https://user-images.githubusercontent.com/85211615/169688254-424e9913-840a-455b-894a-727aafcfc3be.png)
 
 ## things to improve
-[] Implements Dependency Injection insted of test state
-[] Add browser customization
-[] Add test scenarios, for example: test "item(s) left", test button "Clear all completed"
+- [ ] Implements Dependency Injection insted of test state
+- [ ] Add browser customization
+- [ ] Add test scenarios, for example: test "item(s) left", test button "Clear all completed"
 
