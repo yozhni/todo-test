@@ -4,6 +4,9 @@ Hi! this is simple test project Cucumber+Java.
 Test will be run **on Chrome browser**
 
 ## prepare
+
+- download chrome web driver from https://www.selenium.dev/documentation/webdriver/getting_started/install_drivers/
+
 ### If you happily use IntelliJ IDEA: 
 - just choose in menu File - > New -> Open a new project from version control 
 - sync all of dependencies
