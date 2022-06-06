@@ -1,6 +1,6 @@
 #   todo-test
 
-Hi! this is simple test project Cucumber+Java.
+Hi! this is simple tests project Cucumber+Java.
 Test will be run **on Chrome browser**
 
 ## prepare
