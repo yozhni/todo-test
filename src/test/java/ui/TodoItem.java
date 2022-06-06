@@ -6,6 +6,7 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.remote.RemoteWebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 
 public class TodoItem extends WebComponent {
 
@@ -39,6 +40,7 @@ public class TodoItem extends WebComponent {
 
     public void delete() {
         new Actions(wrappedDriver).moveToElement(wrappedElement).perform();
+        wait.until(ExpectedConditions.visibilityOf(deleteButton));
         deleteButton.click();
         wait.until(x -> {
             try {
@@ -57,6 +59,8 @@ public class TodoItem extends WebComponent {
         inputElement.sendKeys(Keys.COMMAND + "a");
         inputElement.sendKeys(Keys.BACK_SPACE);
         inputElement.sendKeys(newLabel + Keys.ENTER);
+
+
         return this;
     }
 

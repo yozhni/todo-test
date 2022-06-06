@@ -22,7 +22,6 @@ public class Hooks {
 
     @AfterAll
     public static void AfterAll(){
-        System.out.println("after all tests");
         WebDriver driver = (WebDriver) TestState.data.get("driver");
         driver.quit();
     }

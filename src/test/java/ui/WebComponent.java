@@ -17,6 +17,6 @@ public abstract class WebComponent {
         this.wrappedDriver = wrapper.getWrappedDriver();
         PageFactory.initElements(wrapper, this);
         this.wrappedElement = wrapper;
-        this.wait = new WebDriverWait(wrappedDriver, Config.DefaultTimeout);
+        this.wait = new WebDriverWait(this.wrappedDriver, Config.DefaultTimeout);
     }
 }
